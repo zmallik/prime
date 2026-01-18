@@ -1,4 +1,15 @@
-# FB News Feed
+#  Design a Feed System (Twitter / Instagram / Facebook)
+
+High signal question
+
+Key topics
+
+> Fan-out on write vs read </br>
+> Timeline generation  </br>
+> Ranking </br>
+> Caching strategy </br>
+> Storage choice (Cassandra) </br>
+
 
 ## Functional Requirements
 ### Core Requirements
