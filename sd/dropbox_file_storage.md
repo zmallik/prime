@@ -1,6 +1,13 @@
 
 # DROPBOX /  FILE STORAGE SYSTEM
 
+
+> Chunking files </br>
+> Metadata service </br>
+> Upload/download flow </br>
+> Consistency </br>
+> Deduplication </br>
+
 - pre-signed urls
 
 1) How can you support large files?
