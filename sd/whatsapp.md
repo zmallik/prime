@@ -10,5 +10,5 @@
 > Kafka usage  </br>
 
 ## Resources
-[](https://www.hellointerview.com/learn/system-design/problem-breakdowns/whatsapp)
+[HI](https://www.hellointerview.com/learn/system-design/problem-breakdowns/whatsapp)
 
