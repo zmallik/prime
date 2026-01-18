@@ -1,4 +1,14 @@
-“How would you design a 𝗟𝗼𝗴 𝗔𝗴𝗴𝗿𝗲𝗴𝗮𝘁𝗼𝗿 like ELK (Elasticsearch, Logstash, Kibana)?”
+# Design a Log Aggregation System, ELK (Elasticsearch, Logstash, Kibana) / (ELK / Splunk-like)
+
+Key topics
+
+> High write throughput </br>
+> Kafka ingestion </br>
+> Indexing </br>
+> Search </br>
+> Retention policies </br>
+
+👉 Common at infra-heavy companies
 
 Here’s how to approach it:
 
