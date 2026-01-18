@@ -14,3 +14,7 @@ Covers fundamentals very well
 > Cache (Redis) </br>
 > Collision handling </br>
 > Rate limiting </br>
+
+
+## Resources 
+[helloInterview](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly)
