@@ -2,9 +2,7 @@
 # Design a URL Shortener (TinyURL / Bitly)
 
 
- Why interviewers love it
-
-Covers fundamentals very well
+Why interviewers love it ? Covers fundamentals very well.
 
 ### Key topics
 
