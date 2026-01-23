@@ -1,4 +1,52 @@
- ### Core Java
+
+### Core Java
+
+**Difference between Runnable vs Callable**
+
+<img width="849" height="424" alt="Screenshot 2026-01-23 at 11 49 43 AM" src="https://github.com/user-attachments/assets/5be5318a-828c-46ba-ba77-94bdd1837ead" />
+
+Runnable: Cannot return result, Exception must be handled inside run(), Best for fire-and-forget tasks
+
+```
+class MyRunnable implements Runnable {
+    @Override
+    public void run() {
+        System.out.println("Task running");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Thread t = new Thread(new MyRunnable());
+        t.start();
+    }
+}
+
+```
+Callable: Can return a value, Can throw checked exceptions, Designed for tasks that produce a result
+```
+class MyCallable implements Callable<Integer> {
+    @Override
+    public Integer call() throws Exception {
+        return 10 + 20;
+    }
+}
+
+public class Test {
+    public static void main(String[] args) throws Exception {
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        Future<Integer> future = executor.submit(new MyCallable());
+
+        Integer result = future.get(); // blocks until result available
+        System.out.println(result);
+
+        executor.shutdown();
+    }
+}
+```
+
+
+
 Explain OOPS concepts with real-time examples Difference between abstract class vs interface </br>
 Why String is immutable? </br>
 How equals) and hashCode() work internally </br>
