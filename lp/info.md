@@ -22,3 +22,6 @@ STAR (Situation, Task, Action, Result)
  - Tell me about a time you had to learn something overnight. </br>
  -  Why do you want to leave your current comfortable job? </br>
  -  What is your biggest technical regret? </br>
+
+### Resources
+[behavioural interview educative.io](https://www.educative.io/blog/behavioral-interviews-how-to-prepare-and-ace-interview-questions)
