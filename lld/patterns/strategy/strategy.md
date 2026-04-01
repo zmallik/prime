@@ -1,4 +1,4 @@
-ntent: Choose behavior (algorithm) at runtime.
+intent: Choose behavior (algorithm) at runtime.
 
 ### 🧠 When to use
 You have multiple ways to perform a task </br>
