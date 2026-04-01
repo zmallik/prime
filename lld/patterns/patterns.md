@@ -48,7 +48,6 @@ Object has many fields </br>
 Avoid telescoping constructors </br>
 Need immutability </br>
 💡 Example: User object </br>
-### 🧩 Key Idea
 
 ### 🧩 Key Idea
 
