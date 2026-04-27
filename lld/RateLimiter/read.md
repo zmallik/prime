@@ -1,11 +1,11 @@
-Rate Limiter Algorithms
+# Rate Limiter Algorithms
 A Rate Limiter controls how many requests a client can make to a service in a given time window. It protects APIs from abuse, DDoS attacks, and overload.
 Why Rate Limiting?
 🛡️ Prevent abuse / DDoS attacks
 💰 Control infrastructure costs
 ⚖️ Fair usage across clients
 🔒 Security (brute force protection)
-1. Token Bucket Algorithm
+## 1. Token Bucket Algorithm
 Concept
 A bucket holds tokens (max = capacity)
 Tokens are added at a fixed rate
